@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5F05E971-7BD5-4841-BD37-CBCAE9BF32BD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Test.HolaMundoTest</StartupObject>
+    <StartupObject>Test.vectores</StartupObject>
     <RootNamespace>Test</RootNamespace>
     <AssemblyName>Test</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -68,7 +68,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="caso.vb" />
+    <Compile Include="enumeracion.vb" />
+    <Compile Include="fechas.vb" />
     <Compile Include="HolaMundoTest.vb" />
+    <Compile Include="matematicas.vb" />
+    <Compile Include="metodos.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -84,6 +89,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="vectores.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
