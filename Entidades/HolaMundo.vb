@@ -1,5 +1,5 @@
 ﻿Public Class HolaMundo
     Sub New()
-        Console.WriteLine("Hola Mundo")
+        Console.WriteLine("Hello World")
     End Sub
 End Class
